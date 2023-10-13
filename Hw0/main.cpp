@@ -1,5 +1,4 @@
 #include<cmath>
-#include<eigen3/Eigen/Core>
 #include<eigen3/Eigen/Dense>
 #include <eigen3/Eigen/src/Core/Matrix.h>
 #include<iostream>
@@ -9,7 +8,7 @@ int main(){
     // TO DO: Define point P
     // TO DO: Define rotation matrix M
     // TO DO: M * P
-
+    std::cout << "hello world" << std::endl;
     constexpr float PI = 3.1415926f;
     constexpr float DEG2RED = PI / 180.0f;
 
